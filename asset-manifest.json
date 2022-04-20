@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website/static/css/main.7e0437df.css",
+    "main.js": "/Portfolio-Website/static/js/main.a6db49d1.js",
+    "static/media/weather.png": "/Portfolio-Website/static/media/weather.063c327f9c4f8325bc37.png",
+    "static/media/Dawn-Merch.png": "/Portfolio-Website/static/media/Dawn-Merch.abce08db2d03cc89554f.png",
+    "static/media/movie.png": "/Portfolio-Website/static/media/movie.15b9ecd7d85f44b21876.png",
+    "static/media/Trabify.png": "/Portfolio-Website/static/media/Trabify.af3afe93e0e0660cd09b.png",
+    "static/media/portfolio.png": "/Portfolio-Website/static/media/portfolio.4c2e6d77d74e717145d5.png",
+    "static/media/form.png": "/Portfolio-Website/static/media/form.78de91fc33afead780ff.png",
+    "static/media/profile.svg": "/Portfolio-Website/static/media/profile.a3745226136a63566daa034b39680ae2.svg",
+    "static/media/react.svg": "/Portfolio-Website/static/media/react.1520bd67b9711ed91ace46b169bc2491.svg",
+    "static/media/cpp.svg": "/Portfolio-Website/static/media/cpp.157c521f834a949ff5c229c7295c3446.svg",
+    "static/media/django.svg": "/Portfolio-Website/static/media/django.a63b73c21e9b31e1a3a31fbdd911dd86.svg",
+    "static/media/solidity.svg": "/Portfolio-Website/static/media/solidity.134084a114994918e2b8761ed4189934.svg",
+    "static/media/python.svg": "/Portfolio-Website/static/media/python.2abc268ffd5e4bb1df19c10c0c79e501.svg",
+    "static/media/bootstrap.svg": "/Portfolio-Website/static/media/bootstrap.e2b4770474d7278713f0b9f377993f9d.svg",
+    "static/media/javascript.svg": "/Portfolio-Website/static/media/javascript.de4c2594613e34b15666206bbede7327.svg",
+    "static/media/git.svg": "/Portfolio-Website/static/media/git.4336ebd4c97bfade2caadc792dcad1d0.svg",
+    "index.html": "/Portfolio-Website/index.html",
+    "static/media/css3.svg": "/Portfolio-Website/static/media/css3.a970faff57243830beb36b718dbf74fc.svg",
+    "static/media/html.svg": "/Portfolio-Website/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg",
+    "static/media/x.svg": "/Portfolio-Website/static/media/x.a3f7d8f5dfeed7b80448bcddd7917e14.svg",
+    "main.7e0437df.css.map": "/Portfolio-Website/static/css/main.7e0437df.css.map",
+    "main.a6db49d1.js.map": "/Portfolio-Website/static/js/main.a6db49d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e0437df.css",
+    "static/js/main.a6db49d1.js"
+  ]
+}
