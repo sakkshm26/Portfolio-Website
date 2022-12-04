@@ -11,12 +11,14 @@ import cpp from "../assets/icons/cpp.svg";
 import python from "../assets/icons/python.svg";
 import solidity from "../assets/icons/solidity.svg";
 import django from "../assets/icons/django.svg";
+import node from "../assets/icons/nodejs.svg";
 import weather from "../assets/images/weather.png"
 import form from "../assets/images/form.png"
 import movie from "../assets/images/movie.png"
 import trabify from "../assets/images/Trabify.png"
 import dawnmerch from "../assets/images/Dawn-Merch.png"
 import portfolio from "../assets/images/portfolio.png"
+import prolio from "../assets/images/prolioHome.png"
 import TypewriterComponent from 'typewriter-effect';
 
 function goToSection() {
@@ -59,7 +61,7 @@ const Home = () => {
                             <a class="contact-link" onClick={() => goToSection()} href="#contact">Contact</a>
                         </li>
                         <li class="list-item">
-                            <a class="resume-link" href="https://drive.google.com/file/d/1RhF4bqD3Pdn8l2MhuNWx6zW3q2M8RUi4/view?usp=sharing"
+                            <a class="resume-link" href="https://drive.google.com/file/d/1b6Z2xxvH0I36sBgJFAA5yfIE-Gn-aKvd/view?usp=share_link"
                                 target="_blank">Resume</a>
                         </li>
                     </ul>
@@ -81,7 +83,7 @@ const Home = () => {
                             <a href="#contact">Contact</a>
                         </li>
                         <li class="list-item">
-                            <a href="https://drive.google.com/file/d/1RhF4bqD3Pdn8l2MhuNWx6zW3q2M8RUi4/view?usp=sharing"
+                            <a href="https://drive.google.com/file/d/1b6Z2xxvH0I36sBgJFAA5yfIE-Gn-aKvd/view?usp=share_link"
                                 target="_blank">Resume</a>
                         </li>
                     </ul>
@@ -132,6 +134,7 @@ const Home = () => {
                         <img src={python} alt="" />
                         <img src={solidity} alt="" />
                         <img src={django} alt="" />
+                        <img style={{ width: "100px" }} src={node} alt="" />
                     </div>
                 </section>
 
@@ -139,6 +142,17 @@ const Home = () => {
                     <div class="projects" id="projects">
                         <h2>Projects</h2>
                         <div class="project-cards">
+                            <div class="card">
+                                <img src={prolio} alt="" />
+                                <div class="para">
+                                    <h3>Prolio</h3>
+                                    <p>Built an application for content creators and influencers that allows them to...</p>
+                                    <p>Tech: React, Express, AWS, Prisma</p>
+                                    <div class="button">
+                                        <button><a href="https://prolio.xyz/">Demo</a></button>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="card">
                                 <img src={trabify} alt="" />
                                 <div class="para">
@@ -154,7 +168,7 @@ const Home = () => {
                                 <img src={dawnmerch} alt="" />
                                 <div class="para">
                                     <h3>Dawn Merch</h3>
-                                    <p>Built an e-commerce platform for buying various items...</p>
+                                    <p>Built an e-commerce platform for buying various products...</p>
                                     <p>Tech: React, Redux, Firebase</p>
                                     <div class="button">
                                         <button><a href="https://sakkshm26.github.io/Dawn-merch/">Demo</a></button>
@@ -175,18 +189,6 @@ const Home = () => {
                                 </div>
                             </div>
                             <div class="card">
-                                <img src={movie} alt="" />
-                                <div class="para">
-                                    <h3>Movie App</h3>
-                                    <p>Developed a Web App which allows the user to search a movie and the results are...</p>
-                                    <p>Tech: HTML, CSS, JavaScript</p>
-                                    <div class="button">
-                                        <button><a href="https://sharp-bhabha-45afe8.netlify.app/">Demo</a></button>
-                                        <button><a href="https://github.com/sakkshm26/Movie-App">Code</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
                                 <img src={weather} alt="" />
                                 <div class="para">
                                     <h3>Weather App</h3>
@@ -195,19 +197,6 @@ const Home = () => {
                                     <div class="button">
                                         <button><a href="https://zen-tesla-15c2c1.netlify.app/">Demo</a></button>
                                         <button><a href="https://github.com/sakkshm26/Weather-App">Code</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src={form} alt="" />
-                                <div class="para">
-                                    <h3>Form Validation</h3>
-                                    <p>It allows the user to fill up details in a form and the validity of the details is
-                                        checked</p>
-                                    <p>Tech: HTML, Bootstrap, JavaScript</p>
-                                    <div class="button">
-                                        <button><a href="https://determined-boyd-ad54ae.netlify.app/">Demo</a></button>
-                                        <button><a href="https://github.com/sakkshm26/Form-Validation">Code</a></button>
                                     </div>
                                 </div>
                             </div>
